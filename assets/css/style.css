@@ -178,7 +178,7 @@ p, h1, h2, h3{color: #777777;}
 /* desktop of 980px css*/
 @media only screen and (max-width: 980px){
 	.container{
-		width: 80%;}
+		width: 90%;}
 	#main-bio, #main-contact, #main-portfolio {
     	width: 50%;
 	}
@@ -206,10 +206,55 @@ p, h1, h2, h3{color: #777777;}
 		padding-bottom: 25px;
 	}
 	#main-portfolio a span{
-		margin-left: 4px;
+		margin-left: 16px;
 		width: 161px;
 	}
 
 /*tablets: 768 px width*/
 @media only screen and (max-width: 768px){
+	img #bio-img{
+		width: 275px;
 	}
+	#main-bio, #main-contact, #main-portfolio{
+    	width: 85%;
+	}
+	.kevin-name {
+	    width: 52%;
+	}
+	#connect{
+		margin: 0px 0px 25px 0px;
+		width: 90%;
+	}
+	#main-portfolio a span {
+    	margin-left: 50px;
+	}
+}
+
+/* phones (landscape): 640 px width*/
+@media only screen and (max-width: 640px){
+	.letter-head{
+		position: static;
+	}
+	.letter-head {
+	    height: 140px;
+	}
+	.kevin-name{
+		width: 100%;
+	}
+	.kevin-name a{
+		margin: 0 auto;
+		padding: 0px;
+	}
+
+	/*these below two properties center the name*/
+	.container{
+		text-align: center;
+	}
+	.kevin-name{
+		background-color: #4AAAA5;
+		display:inline-block;
+	}
+	.quick-links{
+		width: 100%;
+	}
+}
