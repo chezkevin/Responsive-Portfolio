@@ -245,9 +245,15 @@ p, h1, h2, h3{color: #777777;}
 		margin: 0 auto;
 		padding: 0px;
 	}
+	#main-portfolio a span{
+		margin-left: 26px;
+	}
+	form{
+		text-align: left;
+	}
 
 	/*these below two properties center the name*/
-	.container{
+	.container, .footer p{
 		text-align: center;
 	}
 	.kevin-name{
@@ -256,5 +262,14 @@ p, h1, h2, h3{color: #777777;}
 	}
 	.quick-links{
 		width: 100%;
+	}
+	.quick-links a{
+		padding: 0px 30px 0px 30px;
+	}
+	h1,h2,h3,h4,p{
+		text-align: left;
+	}
+	img#bio-img{
+		width: 460px;
 	}
 }
