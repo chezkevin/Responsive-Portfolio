@@ -212,9 +212,6 @@ p, h1, h2, h3{color: #777777;}
 
 /*tablets: 768 px width*/
 @media only screen and (max-width: 768px){
-	img #bio-img{
-		width: 275px;
-	}
 	#main-bio, #main-contact, #main-portfolio{
     	width: 85%;
 	}
@@ -268,8 +265,5 @@ p, h1, h2, h3{color: #777777;}
 	}
 	h1,h2,h3,h4,p{
 		text-align: left;
-	}
-	img#bio-img{
-		width: 460px;
 	}
 }
